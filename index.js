@@ -17,7 +17,7 @@ function displayMessage(y) {
     let x = y.split(' ')
     let parsed = parseInt(x[0]);
     if (parsed < 12) {
-      return 'Good Morning';
+      return ('Good Morning');
     }
     if (parsed > 12 && parsed < 17) {
       return ('Good Afternoon')
