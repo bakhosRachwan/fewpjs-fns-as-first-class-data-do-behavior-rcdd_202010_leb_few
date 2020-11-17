@@ -26,6 +26,6 @@ function greet(y) {
 
 }
 function displayMessage(greet) {
-  document.querySelector('#greeting').innerHTML = greet;
+  document.querySelector('#greeting').innerText = greet;
 
 }
