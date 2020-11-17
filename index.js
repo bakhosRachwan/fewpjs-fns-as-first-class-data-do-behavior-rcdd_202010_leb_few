@@ -18,7 +18,7 @@ function greet(y) {
     return ('Good Morning')
   }
   if (parsed > 12 && parsed < 17) {
-    return ('good afternoon')
+    return ('Good Afternoon')
   }
   if (parsed > 18 && parsed < 24) {
     return ('good evening')
