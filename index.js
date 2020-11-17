@@ -15,7 +15,7 @@ function greet(y) {
   let x = y.split(' ')
   let parsed = parseInt(x[0]);
   if (parsed < 12) {
-    return ('good morning')
+    return ('Good Morning')
   }
   if (parsed > 12 && parsed < 17) {
     return ('good afternoon')
