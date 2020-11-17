@@ -11,22 +11,21 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
-function displayMessage(y) {
-
-  function greet(y) {
-    let x = y.split(' ')
-    let parsed = parseInt(x[0]);
-    if (parsed < 12) {
-      return ('Good Morning');
-    }
-    if (parsed > 12 && parsed < 17) {
-      return ('Good Afternoon')
-    }
-    if (parsed > 18 && parsed < 24) {
-      return ('Good Evening')
-    }
-
+function greet(y) {
+  let x = y.split(' ')
+  let parsed = parseInt(x[0]);
+  if (parsed < 12) {
+    return ('good morning')
   }
+  if (parsed > 12 && parsed < 17) {
+    return ('good afternoon')
+  }
+  if (parsed > 18 && parsed < 24) {
+    return ('good evening')
+  }
+
+}
+function displayMessage(greet) {
   document.querySelector('#greeting').innerHTML = greet;
 
 }
